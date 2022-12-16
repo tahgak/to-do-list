@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #e1e3ea;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  li{
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    background-color:rgb(107, 186, 186) ;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  ul{
+    list-style: none;
+  }
+  .supp{
+    position: absolute;
+    right: 240px;
+    top: 110px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(107, 186, 186);
+    color:black;
+    padding: 8px;
+  }
+.supp:hover{
+  background-color: rgb(88, 147, 147) ;
+}
